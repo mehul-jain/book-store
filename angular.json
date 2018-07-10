@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "book-store"
+  "defaultProject": "book-store",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
